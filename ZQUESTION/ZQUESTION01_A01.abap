@@ -6,7 +6,7 @@
 REPORT zquestion01_a01.
 
 * 0725 _ 제출본 : ZQUESTION01_A01
-* 구현 못한 복사본으로 : ZQUESTION01_A01_1
+* 구현 못한 복사본으로 구현 : ZQUESTION01_A01_1
 
 
 DATA ddays TYPE i. "비행까지 남은 날짜
