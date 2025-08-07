@@ -12,7 +12,7 @@
 FORM get_info .
 
   "Get Airline info
-  "우리 지금 사용 테이블 scarr
+  "현재 사용 테이블 scarr
   CLEAR ZBCA01003.
   SELECT SINGLE carrid carrname currcode
   FROM scarr
