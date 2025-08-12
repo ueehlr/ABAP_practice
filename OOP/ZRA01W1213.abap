@@ -26,7 +26,7 @@ START-OF-SELECTION.
   CREATE OBJECT go_emp. "객체1 생성
   go_emp->prnr = '23010001'.
   go_emp->ename = '강길동'.
-  go_emp->tot_cnt = 1 + lcl_emp=>tot_cnt. "나쁜문법 ..?
+  go_emp->tot_cnt = 1 + lcl_emp=>tot_cnt. 
   APPEND go_emp TO gt_emp. "객체의 내용을 인터널테이블 안에 넣어줌 -> 자연스럽게 Casting이루어짐
   CLEAR go_emp. "인터널테이블 안에 넣어줬으니까 객체 클리어
 
